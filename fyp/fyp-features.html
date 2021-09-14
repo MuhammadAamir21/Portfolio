@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>FYP Features</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/favicon.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v1.5.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="../assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="../index.html">Muhammad Aamir</a></h1>
+        <div class="social-links mt-3 text-center">
+            <a href="https://github.com/MuhammadAamir21" class="instagram"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/muhammad-aamir-805bb91a2/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="../index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="../fyp/fyp-details.html"><i class="bx bx-detail"></i> <span>Introduction</span></a></li>
+          <li class="active"><a href="../fyp/fyp-features.html"><i class="bx bx-badge-check"></i> <span>Features</span></a></li>
+        
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>FYP Details</h2>
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../fyp/fyp-details.html">FYP Introduction</a></li>
+            <li>FYP Features</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+    <div class="container" >
+      <div class="row justify-content-center">
+          <div class="col">
+              <div id="t1">
+
+              </div>
+          </div>
+      </div>
+  </div>
+  </main><!-- End #main -->
+
+   
+    <script>
+        window.addEventListener('load', function () {
+            renderTables();
+        })
+        const features = {
+            "Manage Organization": [
+                {
+                    name: "Register organization", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "Modify organization details", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "View organization details", roles: ["SuperAdmin", "Admin"]
+                },
+                {
+                    name: "Enable/Disable organization", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "Register organization's users", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "Enable/Disable organization's users", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "Genreate password reset links for organization's users", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "Assign certificate count to organizations", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "Reduce organization's certificate count", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "View oragnization's count history", roles: ["SuperAdmin"]
+                },
+                {
+                    name: "View oragnization's published certificates", roles: ["SuperAdmin"]
+                },
+            ],
+            "Manage Certificates": [
+                {
+                    name: "Create certificates", roles: ["Admin", "Issuer"]
+                },
+                {
+                    name: "View certificates", roles: ["Admin", "Issuer"]
+                },
+                {
+                    name: "View published certificates", roles: ["Admin", "Issuer"], notes: ["In his/her own organization only"]
+                },
+                {
+                    name: "Modify certificates", roles: ["Admin", "Issuer"]
+                },
+                {
+                    name: "Delete certificates", roles: ["Admin", "Issuer"]
+                },
+                {
+                    name: "Publish certificates", roles: ["Admin", "Issuer"]
+                },
+                {
+                    name: "Publish notification", roles: ["Admin", "Issuer"]
+                },
+                {
+                    name: "Email published certificates", roles: ["SuperAdmin", "Admin", "Issuer"]
+                },
+                {
+                    name: "Verify certificates", roles: ["SuperAdmin", "Admin", "Issuer", "Verifier"]
+                },
+                {
+                    name: "Forget certificates", roles: ["SuperAdmin", "Admin", "Issuer", "Verifier"]
+                },
+            ],
+            "Manage Users": [
+                {
+                    name: "Register user", roles: ["Admin"], notes: ["In his/her own organization only."]
+                },
+                {
+                    name: "Modify user details", roles: ["Admin"], notes: ["In his/her own organization only."]
+                },
+                {
+                    name: "View user details", roles: ["Admin"], notes: ["In his/her own organization only."]
+                },
+                {
+                    name: "View personal profile", roles: ["Admin,SuperAdmin", "Issuer"],
+                },
+                {
+                    name: "Genreate reset password link", roles: ["Admin"], notes: ["In his/her own organization only."]
+                },
+                {
+                    name: "Directly reset password", roles: ["Admin", "SuperAdmin"],
+                },
+            ],
+        }
+        function renderTables() {
+            let container = document.getElementById('t1');
+            for (const [key, value] of Object.entries(features)) {
+                let div = document.createElement('div');
+                div.innerHTML = `
+            <h3 class="text-center">${key}</h3>
+            <hr>
+            <table class="table table-hover mb-5">
+                <thead>
+                    <tr>
+                        <th class='text-center'>Feature</th>
+                        <th class='text-center'>Verifier</th>
+                        <th class='text-center'>Issuer</th>
+                        <th class='text-center'>Admin</th>
+                        <th class='text-center'>Super Admin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${getFeatureRows(value)}
+                </tbody>
+            </table>
+            `
+                container.append(div)
+            }
+        }
+        function getRolesCol(rolesList, appliedRole) {
+            let isAllowed = rolesList.includes(appliedRole);
+            return `<td ${isAllowed ? "class='bg-success text-center'" : "class='text-center'"}>
+                ${isAllowed ? '&#10004' : "&#10006"}
+            </td > `
+        }
+        function getFeatureRows(features) {
+            if (!features || features.length === 0)
+                return ''
+            return `${features.map(feature => (`<tr><td>${feature.name}${getNotes(feature.notes)}</td>
+            ${getRolesCol(feature.roles, 'Verifier')}
+            ${getRolesCol(feature.roles, 'Issuer')}
+            ${getRolesCol(feature.roles, 'Admin')}
+            ${getRolesCol(feature.roles, 'SuperAdmin')}</tr>`)).join('')}`
+        }
+        function getNotes(notes) {
+            if (!notes || notes.length === 0)
+                return ''
+            return `<ul>${notes ? notes.map(note => (`<li>
+                    <p>${note}</p>
+                    </li>`)).join('') : ''}</ul>`
+        }
+    </script>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Muhammad Aamir</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="../assets/vendor/counterup/counterup.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/venobox/venobox.min.js"></script>
+  <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
